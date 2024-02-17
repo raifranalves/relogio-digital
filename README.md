@@ -9,6 +9,6 @@
 * Git
 * VS code
 
-## Lincença
+## Licença
 
-MIT
+<p>Esse projeto está sob a licença <a href="https://github.com/raifransantos/relogio-digital/blob/main/LICENSE" target="_blank">MIT</a></p>
