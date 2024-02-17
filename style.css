@@ -1,0 +1,72 @@
+/*VARIAVEIS*/
+
+:root{
+    --color-dark: #000;
+    --color-white: #fff;
+    --color-light: #ababab;
+    --color-purple: #5d15a5;
+}
+
+
+/*RESET E ESTILIZACAO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-dark); /*cor de fundo*/
+    color: var(--color-white); /*cor da fonte*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*fonte*/
+}
+
+/*ESTILIZACAO DO BODY*/
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    min-height: 100vh; /*altura minima da tela*/
+}
+
+/*ESTILIZACAO DO RELOGIO*/
+.clock{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap; /*quebra de linha*/
+}
+
+.clock span{
+    color: var(--color-white);
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.clock span:not(:last-child)::after{
+    content: ':'; /*adiciona o : apos cada span*/
+    margin-bottom: 25px;
+    color: var(--color-light);
+}
+
+/*ESTILIZACAO DO TEXTO*/
+h2{
+    width: 100%;
+    text-align: center;
+}
+
+h2 strong{
+    color: var(--color-purple);
+}
+
+
+/*MEDIA QUERIES - RESPONSIVIDADE*/
+@media screen and (max-width: 992px) {
+    .clock span{
+        font-size: 50px;
+    }
+
+    .clock span:not(:last-child)::after{
+        display: none;
+    }
+}
