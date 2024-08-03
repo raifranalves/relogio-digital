@@ -1,6 +1,6 @@
 # Relógio Digital
 
-<img src="https://github.com/raifransantos/relogio-digital/blob/main/github/preview.jpg" alt="Relógio digital"/>
+<img src="https://github.com/raifranalves/relogio-digital/blob/main/preview/preview.png?raw=true" alt="Relógio digital"/>
 
 ## Tecnologias e ferramentas
 * HTML
